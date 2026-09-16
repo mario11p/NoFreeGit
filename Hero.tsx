@@ -11,7 +11,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
       <div className="max-w-5xl mx-auto px-6 lg:px-8">
         <div className="max-w-3xl">
           <p className="text-xs font-mono uppercase tracking-widest text-neutral-400 mb-6">
-            Software Architecture Practice
+            Software Architecture
           </p>
 
           <h1
