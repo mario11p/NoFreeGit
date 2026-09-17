@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowRight, Check } from 'lucide-react';
-import { ContactFormState } from '../types';
+import { ContactFormState } from './types';
 
 interface ContactSectionProps {
   initialService?: string;

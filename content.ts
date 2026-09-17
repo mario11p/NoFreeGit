@@ -1,4 +1,4 @@
-import { NavItem, ServiceItem } from '../types';
+import { NavItem, ServiceItem } from './types';
 
 export const NAV_ITEMS: NavItem[] = [
   { id: 'nav-services', label: 'Services', href: '#services' },

@@ -4,12 +4,12 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { ServicesSection } from './components/ServicesSection';
-import { AboutSection } from './components/AboutSection';
-import { ContactSection } from './components/ContactSection';
-import { Footer } from './components/Footer';
+import { Navbar } from './Navbar';
+import { Hero } from './Hero';
+import { ServicesSection } from './ServicesSection';
+import { AboutSection } from './AboutSection';
+import { ContactSection } from './ContactSection';
+import { Footer } from './Footer';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState<string>('hero');

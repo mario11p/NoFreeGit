@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import { NAV_ITEMS } from '../data/content';
+import { NAV_ITEMS } from './content';
 
 interface NavbarProps {
   activeSection: string;

@@ -11,19 +11,19 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
       <div className="max-w-5xl mx-auto px-6 lg:px-8">
         <div className="max-w-3xl">
           <p className="text-xs font-mono uppercase tracking-widest text-neutral-400 mb-6">
-            Software Architecture Practice
+            Software Architecture
           </p>
 
           <h1
             id="hero-title"
-            className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-black font-display leading-[1.08] mb-8"
+            className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-black font-display leading-[1.08] mb-1"
           >
             Built to scale.
           </h1>
 
           <p
             id="hero-subtitle"
-            className="text-lg sm:text-xl text-neutral-600 leading-relaxed mb-10 max-w-xl font-normal"
+            className="text-lg sm:text-xl text-neutral-600 leading-snug mt-0 mb-10 max-w-xl font-normal"
           >
             We design, audit, and refactor distributed systems, event backbones, and cloud infrastructures.
           </p>
@@ -54,7 +54,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           className="pt-10 border-t border-neutral-200"
         >
           <div className="text-xs font-mono uppercase tracking-widest text-neutral-400 mb-6">
-            Architectural Tooling & Ecosystem
+            Skills and Technologies
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
             <div id="tool-aws" className="flex flex-col items-start">

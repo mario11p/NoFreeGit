@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
-import { SERVICES } from '../data/content';
+import { SERVICES } from './content';
 
 interface ServicesSectionProps {
   onSelectService?: (serviceTitle: string) => void;

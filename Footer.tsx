@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowUp } from 'lucide-react';
-import { NAV_ITEMS } from '../data/content';
+import { NAV_ITEMS } from './content';
 
 interface FooterProps {
   onNavigate: (sectionId: string) => void;
